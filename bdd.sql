@@ -12,9 +12,12 @@ create table user (
 create table contenu(
   id int primary key,
   libelle varchar(255),
+  commentaires text, 
+  accept boolean, 
   id_user int,
   FOREIGN KEY (id_user) REFERENCES user(id)
  );
+ //enregistrer en json tous les commentaires 
  
  create table role (
   id int primary key,
