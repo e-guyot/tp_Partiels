@@ -51,3 +51,5 @@ En plus peut faire :
 - Créer et modifier les comptes leurs assigner des rôles 
 - Configuration de la plateforme de réseaux Sociaux 
 - A une vue sur la plateforme communication
+
+J'ai eu beaucoup d'erreur avec docker et la création de la base d'où ce ficher de method afin d'expliquer ce que j'aurais fait si on aurait eu plus de temps. 
