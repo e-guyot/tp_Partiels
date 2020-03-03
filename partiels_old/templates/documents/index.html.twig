@@ -1,0 +1,9 @@
+{{ include('some_template.markdown.twig')|markdown_to_html }}
+
+
+{% apply markdown_to_html %}
+    Title
+    ======
+
+    Hello!
+{% endapply %}
